@@ -1,0 +1,4 @@
+# Página interna de coleta de dados: não deve ser indexada.
+User-agent: *
+Allow: /
+Disallow: /briefing/
