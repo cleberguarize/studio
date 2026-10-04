@@ -1,0 +1,20 @@
+{
+  "name": "briefing-endpoint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Endpoint de envio do briefing (site + Perfil da Empresa no Google)",
+  "main": "briefing.js",
+  "scripts": {
+    "teste": "node ../test/gerar-briefing-teste.mjs"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "optionalDependencies": {
+    "resend": "^3.0.0",
+    "nodemailer": "^6.9.13"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
